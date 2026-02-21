@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    background: #1e3d59;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #4b79a1, #283e51);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: red;
+    color: white;
+}
+
+/* Courses Section */
+.courses {
+    padding: 50px;
+    text-align: center;
+}
+
+.course-box {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.course-box:hover {
+    background: #ddd;
+}
+
+/* About Section */
+.about {
+    background: #1e3d59;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
